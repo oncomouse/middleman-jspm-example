@@ -20,6 +20,3 @@
 /node_modules
 /source/javascripts/jspm_packages
 /Gemfile.lock
-
-package.json
-/source/javascripts/config.js
