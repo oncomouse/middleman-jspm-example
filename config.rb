@@ -55,6 +55,11 @@ set :images_dir, 'images'
 
 activate :jspm
 
+after_configuration do
+	# Configure Bootstrap to work with stylesheets:
+	sprockets.append_path File.join root, jspm_path("twbs/bootstrap-sass", "github") + "/assets/stylesheets/"
+end
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment

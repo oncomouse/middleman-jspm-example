@@ -1,1 +1,6 @@
-console.log("Hello World!");
+import $ from 'jquery';
+import 'bootstrap';
+
+$(() => {
+  console.log("Hello World!");
+});
