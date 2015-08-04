@@ -9,7 +9,7 @@ After downloading, run:
 ```
 bundle install
 npm install jspm
-middleman jspm init
+middleman jspm install
 ```
 
 Then start `middleman`.
