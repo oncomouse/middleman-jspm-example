@@ -12,4 +12,4 @@ npm install jspm
 middleman jspm init
 ```
 
-Before starting middleman
+Then start `middleman`.
