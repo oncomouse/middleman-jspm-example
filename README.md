@@ -13,3 +13,7 @@ middleman jspm init
 ```
 
 Then start `middleman`.
+
+## Bootstrap
+
+Site now uses [Bootstrap](http://getbootstrap.com/) (including loading the stylesheets out of JSPM).
